@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynatron Modeller</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 50px;
+      letter-spacing: 3px;
+    }
+    .tagline {
+      color: #ff3c3c;
+      margin-bottom: 30px;
+    }
+    .models {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .model {
+      background: #111;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .model:hover {
+      transform: scale(1.05);
+    }
+    .model img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .price {
+      color: #ff3c3c;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DYNATRON</h1>
+  <p class="tagline">Alle modeller</p>
+</header>
+
+<div class="models">
+  <div class="model">
+    <img src="titan.png" alt="Titan">
+    <h2>Titan</h2>
+    <div>Topphastighet: 110 km/t</div>
+    <div>Motor: 6000W</div>
+    <div class="price">29 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="beast_ultra.png" alt="Beast Ultra">
+    <h2>Beast Ultra</h2>
+    <div>Topphastighet: 100 km/t</div>
+    <div>Motor: 5000W</div>
+    <div class="price">24 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="thunder_x.png" alt="Thunder X">
+    <h2>Thunder X</h2>
+    <div>Topphastighet: 90 km/t</div>
+    <div>Motor: 4000W</div>
+    <div class="price">19 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="viper.png" alt="Viper">
+    <h2>Viper</h2>
+    <div>Topphastighet: 80 km/t</div>
+    <div>Motor: 3500W</div>
+    <div class="price">17 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="ranger_pro.png" alt="Ranger Pro">
+    <h2>Ranger Pro</h2>
+    <div>Topphastighet: 75 km/t</div>
+    <div>Motor: 3000W</div>
+    <div class="price">16 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="ranger.png" alt="Ranger">
+    <h2>Ranger</h2>
+    <div>Topphastighet: 65 km/t</div>
+    <div>Motor: 2500W</div>
+    <div class="price">14 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="sport_r.png" alt="Sport R">
+    <h2>Sport R</h2>
+    <div>Topphastighet: 60 km/t</div>
+    <div>Motor: 2200W</div>
+    <div class="price">13 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="explorer.png" alt="Explorer">
+    <h2>Explorer</h2>
+    <div>Topphastighet: 55 km/t</div>
+    <div>Motor: 2000W</div>
+    <div class="price">12 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="worker.png" alt="Worker">
+    <h2>Worker</h2>
+    <div>Topphastighet: 50 km/t</div>
+    <div>Motor: 1800W</div>
+    <div class="price">11 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="cruiser.png" alt="Cruiser">
+    <h2>Cruiser</h2>
+    <div>Topphastighet: 45 km/t</div>
+    <div>Motor: 1500W</div>
+    <div class="price">10 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="evo_pro.png" alt="Evo Pro">
+    <h2>Evo Pro</h2>
+    <div>Topphastighet: 40 km/t</div>
+    <div>Motor: 1200W</div>
+    <div class="price">9 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="city_s.png" alt="City S">
+    <h2>City S</h2>
+    <div>Topphastighet: 30 km/t</div>
+    <div>Motor: 700W</div>
+    <div class="price">4 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="mini.png" alt="Mini">
+    <h2>Mini</h2>
+    <div>Topphastighet: 20 km/t</div>
+    <div>Motor: 350W</div>
+    <div class="price">3 990 kr</div>
+  </div>
+</div>
+  </div>
+
+  <div class="model">
+    <img src="thunder_x.png" alt="Thunder X">
+    Thunder X
+    <div class="price">19 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="ranger.png" alt="Ranger">
+    Ranger
+    <div class="price">14 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="ranger_pro.png" alt="Ranger Pro">
+    Ranger Pro
+    <div class="price">16 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="city_s.png" alt="City S">
+    City S
+    <div class="price">4 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="beast_ultra.png" alt="Beast Ultra">
+    Beast Ultra
+    <div class="price">24 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="explorer.png" alt="Explorer">
+    Explorer
+    <div class="price">12 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="cruiser.png" alt="Cruiser">
+    Cruiser
+    <div class="price">10 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="sport_r.png" alt="Sport R">
+    Sport R
+    <div class="price">13 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="mini.png" alt="Mini">
+    Mini
+    <div class="price">3 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="worker.png" alt="Worker">
+    Worker
+    <div class="price">11 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="viper.png" alt="Viper">
+    Viper
+    <div class="price">17 990 kr</div>
+  </div>
+
+  <div class="model">
+    <img src="titan.png" alt="Titan">
+    Titan
+    <div class="price">29 990 kr</div>
+  </div>
+</div>
+
+<footer>
+  <p>Kjør Dynatron. Kjør fremtiden.</p>
+</footer>
+
+</body>
+</html>
